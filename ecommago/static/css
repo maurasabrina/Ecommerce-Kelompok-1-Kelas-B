@@ -1,0 +1,38 @@
+/* styles.css */
+
+/* Gaya untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya untuk header */
+h1 {
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Gaya untuk gambar */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Gaya untuk tombol */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

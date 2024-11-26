@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Keranjang Anda</title>
+</head>
+<body>
+    <h1>Keranjang Belanja Anda</h1>
+    <ul>
+        {% for item in items %}
+            <li>{{ item.quantity }} x {{ item.product.name }} - {{ item.product.price * item.quantity }} IDR</li>
+        {% endfor %}
+    </ul>
+    <p><strong>Total Pembayaran:</strong> {{ total }} IDR</p>
+    <a href="{% url 'checkout' %}">Lanjutkan ke Pembayaran</a>
+</body>
+</html>

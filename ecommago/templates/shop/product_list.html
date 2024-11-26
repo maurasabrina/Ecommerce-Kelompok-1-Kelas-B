@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Katalog Produk</title>
+</head>
+<body>
+    <h1>Katalog Produk Kami</h1>
+    <ul>
+        {% for category in categories %}
+            <h2>Kategori: {{ category.name }}</h2>
+            <ul>
+                {% for product in products %}
+                    {% if product.category.id == category.id %}
+                        <li>
+                            <a href="{% url 'product_detail' product.slug %}">{{ product.name }}</a>
+                            - Harga: {{ product.price }} IDR
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </ul>
+</body>
+</html>

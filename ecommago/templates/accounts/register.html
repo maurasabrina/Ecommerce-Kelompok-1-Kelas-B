@@ -1,0 +1,51 @@
+
+{%block content%}
+<h2>Register</h2>
+    <p>Buat akun terlebih dahulu untuk menikmati produk kami</p>
+    {% if msg %}
+        <span class="text-error">{{ msg | safe }}</span>
+    {% endif %}
+    <ul class="messages">
+        {% for field, errors in form.errors.items %}
+            {% for error in errors %}
+                <li class="error">{{ error }}</li>
+            {% endfor %}
+        {% endfor %}
+    </ul>
+    <form method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="username">Username <span class="text-danger">*</span></label>
+            {{ form.username }}
+        </div>
+        <div class="form-group">
+            <label for="first_name">First Name <span class="text-danger">*</span></label>
+            {{ form.first_name }}
+        </div>
+        <div class="form-group">
+            <label for="last_name">Last Name <span class="text-danger">*</span></label>
+            {{ form.last_name }}
+        </div>
+        <div class="form-group">
+            <label for="phone_number">Nomor WhatsApp <span class="text-danger">*</span></label>
+            {{ form.phone_number }}
+        </div>
+        <div class="form-group">
+            <label for="email">E-Mail Aktif <span class="text-danger">*</span></label>
+            {{ form.email }}
+        </div>
+        <div class="form-group">
+            <label for="password1">Password <span class="text-danger">*</span></label>
+            {{ form.password1 }}
+        </div>
+        <div class="form-group">
+            <label for="password2">Confirm Password <span class="text-danger">*</span></label>
+            {{ form.password2 }}
+        </div>
+        <input type="submit" value="Daftar Akun" class="submit-btn-modal">
+    </form>
+    <div class="text-reset-password">Sudah punya akun? 
+    <a href="{% url 'login' %}" class="reset-password">Log In disini</a>
+    </div>
+</div>
+{% endblock %}
