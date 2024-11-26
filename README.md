@@ -58,6 +58,7 @@ Demo Registrasi
 
 # Dokumentasi
 ![image](https://github.com/user-attachments/assets/15438047-0eb0-4153-b8f2-513edeeceeed)
+![image](https://github.com/user-attachments/assets/c4f0e156-dc17-4bf0-a7f2-0cd3dfee1eaf)
 ![image](https://github.com/user-attachments/assets/8f87d43e-c3a9-492b-87ed-448dd7d52f98)
 ![image](https://github.com/user-attachments/assets/d62a4315-251d-45ab-ae7f-8a1ddac8baed)
 ![image](https://github.com/user-attachments/assets/1535fe3a-8ad8-4f49-87c7-b845f222e334)
