@@ -40,4 +40,26 @@ Demo Registrasi
 ![image](https://github.com/user-attachments/assets/65a8302f-1cb9-443c-80da-c440a04fb364)
 
 
-- # Models For Sale
+# Models For Sale
+- Cart items
+![image](https://github.com/user-attachments/assets/ab3166ab-56f9-4bfb-8fc2-d2d73fe85de0)
+- Carts
+![image](https://github.com/user-attachments/assets/da7b9d15-40b2-4d78-992c-f0905415b2fe)
+- Kategori
+![image](https://github.com/user-attachments/assets/4237978d-70f5-415c-8773-b06c9fde126e)
+- Order items
+![image](https://github.com/user-attachments/assets/cd1d2783-102b-44c7-bf43-841338fe9f17)
+- Orders
+![image](https://github.com/user-attachments/assets/32b9c02c-935d-4cf4-a847-1f9e7d0a59f0)
+- Produk
+![image](https://github.com/user-attachments/assets/388d17dc-936d-4307-b90b-04af92a99576)
+- User profiles
+![image](https://github.com/user-attachments/assets/9fd07647-1d95-4387-b7b0-9ba5bfbf0fb9)
+
+# Dokumentasi
+![image](https://github.com/user-attachments/assets/15438047-0eb0-4153-b8f2-513edeeceeed)
+![image](https://github.com/user-attachments/assets/8f87d43e-c3a9-492b-87ed-448dd7d52f98)
+![image](https://github.com/user-attachments/assets/d62a4315-251d-45ab-ae7f-8a1ddac8baed)
+![image](https://github.com/user-attachments/assets/1535fe3a-8ad8-4f49-87c7-b845f222e334)
+
+
